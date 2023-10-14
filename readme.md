@@ -6,14 +6,22 @@ Install my-project with npm
 
 ```bash
   git clone https://github.com/Toufiquer/electron-vite-react-chadcn.git
-  
-  cd electron-vite-project
+```
 
-  /* yarn */
+```bash
+  cd electron-vite-project
+```
+
+/_ yarn _/
+
+```bash
   yarn | yarn install
   yarn dev
+```
 
-  /* npm */
+/_ npm _/
+
+```bash
   npm i | npm install
   npm run dev
 ```
