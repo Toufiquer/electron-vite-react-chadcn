@@ -11,7 +11,7 @@ Install my-project with npm
 /_ Change Directory [for windows] _/
 
 ```bash
-  cd .\\electron-vite-project\
+  cd .\electron-vite-project\
 ```
 
 /_ yarn _/
