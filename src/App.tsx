@@ -1,4 +1,5 @@
 import "./App.css";
+import "./globals.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootRoute from "./route";

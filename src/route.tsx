@@ -10,6 +10,10 @@ import Home from "./page/home";
 import About from "./page/about";
 import Section from "./page/section";
 import Nav from "./components/nav/Nav";
+import Chadcn from "./page/chadcn";
+import Blogs from "./page/blogs";
+import BlogDetails from "./page/blog-details";
+import Notfound from "./page/notfound";
 
 const RootRoute = () => {
   return (
@@ -18,7 +22,11 @@ const RootRoute = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/chadcn" element={<Chadcn />} />
         <Route path="/section" element={<Section />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:id" element={<BlogDetails />} />
+        <Route path="*" element={<Notfound />} />
       </Routes>
     </>
   );
