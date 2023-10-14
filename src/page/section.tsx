@@ -6,6 +6,10 @@
 |-----------------------------------------
 */
 const Section = () => {
-  return <main>Section Page</main>;
+  return (
+    <main className="bg-slate-800 text-white flex w-full h-screen items-center justify-center">
+      Section Page
+    </main>
+  );
 };
 export default Section;

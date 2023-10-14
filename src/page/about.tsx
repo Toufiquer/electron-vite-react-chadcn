@@ -6,6 +6,10 @@
 |-----------------------------------------
 */
 const About = () => {
-  return <main>About Page</main>;
+  return (
+    <main className="bg-slate-800 text-white flex w-full h-screen items-center justify-center">
+      About Page
+    </main>
+  );
 };
 export default About;

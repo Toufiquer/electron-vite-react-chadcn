@@ -1,12 +1,13 @@
 import "./App.css";
-import Home from "./page/home";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import RootRoute from "./route";
+
+// 3️⃣ Router singleton created
+const router = createBrowserRouter([{ path: "*", Component: RootRoute }]);
 
 function App() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
