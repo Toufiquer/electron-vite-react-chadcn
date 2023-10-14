@@ -17,7 +17,7 @@ Install my-project with npm
 /_ yarn _/
 
 ```bash
-yarn install
+  yarn install
 ```
 
 ```bash
@@ -27,7 +27,7 @@ yarn install
 /_ npm _/
 
 ```bash
- npm install
+  npm install
 ```
 
 ```bash
